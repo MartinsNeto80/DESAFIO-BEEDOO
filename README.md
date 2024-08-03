@@ -1,6 +1,6 @@
 # Documentação 
 
-1. User Story
+## 1. User Story
 As User Stories foram decididas baseadas nos pontos de função presentes no módulo de curso do Beedoo Chalenge.
 
 ### Users story: Listar Curso
@@ -28,17 +28,17 @@ As User Stories foram decididas baseadas nos pontos de função presentes no mó
 
 #### REGRAS DE NEGÓCIO:
 * Imagem da capa:
-  * A imagem deve ser exibida na parte superior do card;		
+  	* A imagem deve ser exibida na parte superior do card;		
 * Tipo de Curso:
-  * Deve ser exibido abaixo da imagem;
+  	* Deve ser exibido abaixo da imagem;
 	* Font: Padrão do projeto, 12px;
 	* Color: #EF6C00.
 * Nome do Curso:
-  * Deve ser exibido abaixo do tipo do Curso;
+  	* Deve ser exibido abaixo do tipo do Curso;
 	* Font: Padrão do projeto, 24px;
 	* Color: #000000.
 * Descrição do Curso:
-  * Deve ser exibido abaixo do Nome do Curso;
+  	* Deve ser exibido abaixo do Nome do Curso;
 	* Font: Padrão do projeto, 12px;
 	* Color: #9E9E9E.
 * Data de Início:
@@ -47,19 +47,18 @@ As User Stories foram decididas baseadas nos pontos de função presentes no mó
 	* Color: #1976D2;
 	* Exemplo: "Inicio: AAAA-MM-DD".
 * Data de Fim:  
-  * Deve ser exibido a frente da Data de Início;
+  	* Deve ser exibido a frente da Data de Início;
 	* Font: Padrão do projeto, 14px;
 	* Color: #1976D2;
-	* Exemplo: *"Inicio: AAAA-MM-DD".
+	* Exemplo: "Inicio: AAAA-MM-DD".
 * Número de Vagas:
 	* Deve ser exibido a frente da Data de Fim;
 	* Font: Padrão do projeto, 14px;
 	* Color: #26A69A.
-* Botão cadastrar:
-  * Ao clicar no botão "Botão Cadastrar", o sistema deve:
-	  * Apagar o curso na base de dados;
-		* Exibir uma mensagem de sucesso "Curso excluído com sucesso!";
-		* Redirecionar o usuário para a lista de cursos.
+* Botão Excluir Curso:
+  * Ao clicar no botão botão "Excluir Curso", o sistema deve:
+	* Apagar o curso na base de dados;
+	* Exibir uma mensagem de sucesso "Curso excluído com sucesso!";
 
 #### OBSERVAÇÃO:
 * Fonte padrão do projeto:
@@ -68,7 +67,7 @@ As User Stories foram decididas baseadas nos pontos de função presentes no mó
 ### Users story: Cadastrar Curso
 
 #### DESCRIÇÃO:
-**Como** um administrador do módulo de curso no Beedoo,  
+**Como** um usuário do módulo de curso no Beedoo,  
 **Eu quero** ter uma seção chamada "Cadastrar Curso" no módulo de curso,  
 **Para que** eu possa cadastrar novos cursos que serão disponibilizados para o público.
 
@@ -141,5 +140,16 @@ As User Stories foram decididas baseadas nos pontos de função presentes no mó
 				*	Exibir uma mensagem de sucesso "Curso cadastrado com sucesso!";
 				*	Redirecionar o usuário para a lista de cursos.
 			*	Se algum campo obrigatório estiver vazio ou inválido, o sistema deve exibir uma mensagem de erro ao lado do campo em questão.
+
+
+## 2. Cenários e Casos de teste
+[Planilha](https://docs.google.com/spreadsheets/d/16mnkVMhV-VGeiGPn1Gvc-ow9MynUlqoaULRfZsUoK74/edit?usp=sharing)
+
+
+## 3. Relatório com todos os bugs encontrados
+
+
+## 4. Evidências
+[Evidências](https://drive.google.com/drive/folders/1o41EJ1vqw3x6O5tSbkQ4FTbl3GnH9Ca9?usp=sharing)
 
 
