@@ -1,5 +1,20 @@
 # Documentação 
 
+Antes do inicio dos testes é muito importante esclarecer todas as duvidas com o time responsável sobre o produto:
+* Requisitos funcionais e não-funcionais;
+* Fluxos de usuário e cenários criticos;
+* Integrações e dependências.
+   
+É importante ressaltar que a qualidade é uma cultura que deve ser adotada por toda a equipe. Mesmo com as melhores ferramentas disponíveis, a qualidade só será alcançada se todos os membros do time seguirem rigorosamente os processos e padrões estabelecidos.
+
+
+## Sumário
+1. USER STORY
+2. CENÁRIOS E CASOS DE TESTE
+3. RELATÓRIO COM TODOS OS BUGS ENCONTRADOS
+4. EVIDÊNCIAS
+
+
 ## 1. User Story
 As User Stories foram decididas baseadas nos pontos de função presentes no módulo de curso do Beedoo Chalenge.
 
@@ -147,7 +162,15 @@ As User Stories foram decididas baseadas nos pontos de função presentes no mó
 
 
 ## 3. Relatório com todos os bugs encontrados
+* Vulnerabilidades Identificadas
+	* Validação de Entrada Insuficiente
+		* Descrição: O sistema permite o cadastro de cursos com campos obrigatórios em branco ou preenchidos de forma inadequada.
+		* Risco: Dados incompletos ou inválidos são armazenados, o que pode comprometer a integridade dos dados e a funcionalidade do sistema.
+	* Falta de Mensagens de Erro Específicas
+		* Descrição: Não há feedback claro para o usuário sobre quais campos estão incorretos ou faltando.
+		* Risco: Dificulta a correção de erros pelo usuário e pode levar a dados incorretos sendo salvos.
 
+[Relatório](https://docs.google.com/spreadsheets/d/1z3YyZnf3VF9Y0zHVv9qv5CH5-1REu77xScnpZD1KmAk/edit?usp=sharing)
 
 ## 4. Evidências
 [Evidências](https://drive.google.com/drive/folders/1o41EJ1vqw3x6O5tSbkQ4FTbl3GnH9Ca9?usp=sharing)
